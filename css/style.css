@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B98E;
-    --secondary: #FF6922;
+    --primary: #168908;
+    --secondary: #c61a16;
     --light: #EFFDF5;
     --dark: #0E2E50;
 }
@@ -242,7 +242,7 @@
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
+    border: 1px dashed #168908;
     transition: .5s;
 }
 
@@ -283,11 +283,11 @@
 }
 
 .property-item .border-top {
-    border-top: 1px dashed rgba(0, 185, 142, .3) !important;
+    border-top: 1px dashed #168908 !important;
 }
 
 .property-item .border-end {
-    border-right: 1px dashed rgba(0, 185, 142, .3) !important;
+    border-right: 1px dashed #168908 !important;
 }
 
 
@@ -363,7 +363,7 @@
 }
 
 .testimonial-carousel .testimonial-item .border {
-    border: 1px dashed rgba(0, 185, 142, .3) !important;
+    border: 1px dashed #168908 !important;
 }
 
 .testimonial-carousel .owl-nav {

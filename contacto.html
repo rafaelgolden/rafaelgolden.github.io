@@ -65,13 +65,14 @@
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link active">Portada</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Conferencias</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Calendario</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="index.html" class="dropdown-item">Baby</a>
-                                <a href="index.html" class="dropdown-item">Infantil</a>
-                                <a href="index.html" class="dropdown-item">Juvenil</a>
-                                <a href="index.html" class="dropdown-item">Femenil</a>
-                                <a href="contacto.html" class="dropdown-item">Contacto con FADEMAC</a>
+                                <a href="index.html" class="dropdown-item">Calendario de Juego</a>
+                                <a href="index.html" class="dropdown-item">Resultados</a>
+                                <a href="index.html" class="dropdown-item">Posiciones</a>
+                                <a href="index.html" class="dropdown-item">Estadistica de Equipo</a>
+                                <a href="index.html" class="dropdown-item">Estadistica de Partido</a>
+                                <a href="index.html" class="dropdown-item">Los MVP por Confencia</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
@@ -86,19 +87,18 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Calendario</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Categorias</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="index.html" class="dropdown-item">Calendario de Juego</a>
-                                <a href="index.html" class="dropdown-item">Resultados</a>
-                                <a href="index.html" class="dropdown-item">Posiciones</a>
+                                <a href="index.html" class="dropdown-item">Baby</a>
+                                <a href="index.html" class="dropdown-item">Infantil</a>
+                                <a href="index.html" class="dropdown-item">Juvenil</a>
+                                <a href="index.html" class="dropdown-item">Femenil</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Estadisticas</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Información</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="index.html" class="dropdown-item">Estadistica de Equipo</a>
-                                <a href="index.html" class="dropdown-item">Estadistica de Partido</a>
-                                <a href="index.html" class="dropdown-item">Los MVP por Confencia</a>
+                                <a href="contacto.html" class="dropdown-item">Contacto con FADEMAC</a>
                                 <a href="index.html" class="dropdown-item">Los Coaches por Confencia</a>
                             </div>
                         </div>
@@ -110,7 +110,6 @@
         </div>
         <!-- Navbar End -->
 
-
         <!-- Header Start -->
         <div class="container-fluid header bg-white p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
@@ -118,14 +117,14 @@
                     <h1 class="display-5 animated fadeIn mb-4">Contacto</h1>
                     <nav aria-label="breadcrumb animated fadeIn">
                         <ol class="breadcrumb text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Portada</a></li>
                             <li class="breadcrumb-item"><a href="#">Equipos</a></li>
                             <li class="breadcrumb-item text-body active" aria-current="page">Contacto</li>
                         </ol>
                     </nav>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                    <img class="img-fluid" src="img/contacto.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -133,21 +132,28 @@
 
 
         <!-- Search Start -->
-        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+        <div class="container-fluid bg-primary mb-4 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
             <div class="container">
                 <div class="row g-2">
                     <div class="col-md-10">
                         <div class="row g-2">
                             <div class="col-md-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Teclee el Equipo">
+                                <select class="form-select border-0 py-3">
+                                    <option selected>Equipos</option>
+                                    <option value="1">Mayas</option>
+                                    <option value="2">Toritos</option>
+                                    <option value="3">Spartans ODA</option>
+                                    <option value="3">Gamos México</option>
+                                </select>
                             </div>
                             <div class="col-md-4">
                                 <select class="form-select border-0 py-3">
-                                    <option selected>Conferencias</option>
-                                    <option value="1">Baby</option>
-                                    <option value="2">Infantil</option>
-                                    <option value="3">Juvenil</option>
-                                    <option value="3">Femenil</option>
+                                    <option selected>Categorias</option>
+                                    <option value="1">Todas</option>
+                                    <option value="2">Baby</option>
+                                    <option value="3">Infantil</option>
+                                    <option value="4">Juvenil</option>
+                                    <option value="5">Femenil</option>
                                 </select>
                             </div>
                             <div class="col-md-4">
@@ -266,28 +272,33 @@
 
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
+            <div class="container py-3">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Contacto</h5>
+                        <h5 class="text-white mb-4"><a href="contacto.html">Contacto</a></h5>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Av. Chapultepec #157-203 Col. Juarez,
                             Mexico City, Mexico</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>55 5566 4252</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>prensafademac@gmail.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/LigaFademac"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/ligafademac"
+                                target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@FADEMACTV"
+                                target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://x.com/LigaFademac"
+                                target="_blank"><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Contacto</h5>
+                        <h5 class="text-white mb-4">Información</h5>
                         <a class="btn btn-link text-white-50" href="">Acerca de FADEMAC</a>
-                        <a class="btn btn-link text-white-50" href="">EQUIPOS</a>
-                        <a class="btn btn-link text-white-50" href="">Conferencias</a>
-                        <a class="btn btn-link text-white-50" href="">OTROS</a>
-                        <a class="btn btn-link text-white-50" href="">OTROS</a>
+                        <a class="btn btn-link text-white-50" href="">Equipos</a>
+                        <a class="btn btn-link text-white-50" href="">Categorias</a>
+                        <a class="btn btn-link text-white-50" href="">Calendario</a>
+                        <a class="btn btn-link text-white-50" href="">Resultados</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Galeria de Fotos</h5>

@@ -65,17 +65,6 @@
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link active">Portada</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Equipos</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="index.html" class="dropdown-item">Mayas</a>
-                                <a href="index.html" class="dropdown-item">Cobras CI</a>
-                                <a href="index.html" class="dropdown-item">Lions Academy</a>
-                                <a href="index.html" class="dropdown-item">Raiders Arboledas</a>
-                                <a href="index.html" class="dropdown-item">Halcones Rojos</a>
-                                <a href="index.html" class="dropdown-item">Gamos Mexico</a>
-                            </div>
-                        </div>
-                        <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Calendario</a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="index.html" class="dropdown-item">Calendario de Juego</a>
@@ -84,6 +73,17 @@
                                 <a href="index.html" class="dropdown-item">Estadistica de Equipo</a>
                                 <a href="index.html" class="dropdown-item">Estadistica de Partido</a>
                                 <a href="index.html" class="dropdown-item">Los MVP por Confencia</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Equipos</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="index.html" class="dropdown-item">Mayas</a>
+                                <a href="index.html" class="dropdown-item">Cobras CI</a>
+                                <a href="index.html" class="dropdown-item">Lions Academy</a>
+                                <a href="index.html" class="dropdown-item">Raiders Arboledas</a>
+                                <a href="index.html" class="dropdown-item">Halcones Rojos</a>
+                                <a href="index.html" class="dropdown-item">Gamos Mexico</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
@@ -140,21 +140,28 @@
 
 
         <!-- Search Start -->
-        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+        <div class="container-fluid bg-primary mb-4 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
             <div class="container">
                 <div class="row g-2">
                     <div class="col-md-10">
                         <div class="row g-2">
                             <div class="col-md-4">
-                                <input type="text" class="form-control border-0 py-3" placeholder="Teclee el Equipo">
+                                <select class="form-select border-0 py-3">
+                                    <option selected>Equipos</option>
+                                    <option value="1">Mayas</option>
+                                    <option value="2">Toritos</option>
+                                    <option value="3">Spartans ODA</option>
+                                    <option value="3">Gamos México</option>
+                                </select>
                             </div>
                             <div class="col-md-4">
                                 <select class="form-select border-0 py-3">
                                     <option selected>Categorias</option>
-                                    <option value="1">Baby</option>
-                                    <option value="2">Infantil</option>
-                                    <option value="3">Juvenil</option>
-                                    <option value="3">Femenil</option>
+                                    <option value="1">Todas</option>
+                                    <option value="2">Baby</option>
+                                    <option value="3">Infantil</option>
+                                    <option value="4">Juvenil</option>
+                                    <option value="5">Femenil</option>
                                 </select>
                             </div>
                             <div class="col-md-4">
@@ -175,9 +182,8 @@
         </div>
         <!-- Search End -->
 
-
-        <!-- About Start -->
-        <div class="container-xxl py-5">
+        <!-- Informacion Start -->
+        <div class="container-xxl py-3">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -202,88 +208,31 @@
                 </div>
             </div>
         </div>
-        <!-- About End -->
+        <!-- Informacion End -->
 
-
-        <!-- Category Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Categorias</h1>
-                    <p>Las Categorias van de acordes a las edades checa cada una y los equipos que estan en cada una.
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
-                                </div>
-                                <h6>Categorias Baby</h6>
-                                <span>8 Equipos</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
-                                </div>
-                                <h6>Categorias Infantil</h6>
-                                <span>19 Equipos</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
-                                </div>
-                                <h6>Categorias Juvenil</h6>
-                                <span>48 Equipos</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
-                                </div>
-                                <h6>Categorias Femenil</h6>
-                                <span>28 Equipos</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Category End -->
         <!-- Partidos List Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-3">
             <div class="container">
                 <div class="row g-0 gx-5 align-items-end">
-                    <div class="col-lg-6">
-                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h1 class="mb-3">Partidos</h1>
-                            <p>Todos los partidos de pretemporada ya estan aqui. La segunda semana de Febrero con
-                                grandes emociones</p>
-                        </div>
-                    </div>
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="text-start mx-auto mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="mb-1">Calendario</h1>
+                            <p>Todos los partidos de pretemporada ya estan aqui. La segunda semana de Febrero con
+                                grandes emociones, serán del 13 al 16 de Febrero</p>
+                        </div>
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <img class="img-fluid" src="img/Pretemporada6.png" alt="">
                             </div>
+
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="mb-4">
-                                    <h1 class="mb-3">Partidos de Pretemporada</h1>
-                                    <p>Aqui todos los partidos de esta semana donde 10 equipos se enfrentaran, enterate
+                                    <h1 class="mb-2">Partidos de Pretemporada</h1>
+                                    <p> Aquí todos los partidos de esta semana donde 10 equipos se enfrentaran, enterate
                                         de toda la acción partido por partido, jugada tras jugada.</p>
                                 </div>
+                                <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Calendario
+                                    Completo</a>
                             </div>
                         </div>
                     </div>
@@ -306,8 +255,11 @@
                                     <div class="p-4 pb-0">
                                         <a class="d-block h5 mb-2" href="">Wildcats vs Pats</a>
                                         <h5 class="text-primary mb-3">Tlalpan</h5>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Bordo, Calz Acoxpa 178,
-                                            Vergel del Sur, Tlalpan, Mexico City, Mexico, 14340</p>
+                                        <a href="https://maps.app.goo.gl/Smap9kwh3z7Lbgih9" target="_blank">
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Bordo, Calz Acoxpa
+                                                178,
+                                                Vergel del Sur, Tlalpan, Mexico City, Mexico, 14340</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -325,8 +277,11 @@
                                     <div class="p-4 pb-0">
                                         <a class="d-block h5 mb-2" href="">Bucaneros vs Bears ASF</a>
                                         <h5 class="text-primary mb-3">Satelite</h5>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Avenida Lomas Verdes
-                                            S/N, Sta Cruz Acatlan, 53150 Naucalpan de Juárez Mexico</p>
+                                        <a href="https://maps.app.goo.gl/cyzBHpTsCmKcwsf78" target="_blank">
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Avenida Lomas
+                                                Verdes
+                                                S/N, Sta Cruz Acatlan, 53150 Naucalpan de Juárez Mexico</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -344,8 +299,10 @@
                                     <div class="p-4 pb-0">
                                         <a class="d-block h5 mb-2" href="">Toritos vs Aztecas ODA</a>
                                         <h5 class="text-primary mb-3">Texcoco</h5>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Pazaleas S/N, Santa
-                                            Ursula, Municipio de Texcoco, Mexico, 56150</p>
+                                        <a href="https://maps.app.goo.gl/oCiiTEijMdCo1tN2A" target="_blank">
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Pazaleas S/N, Santa
+                                                Ursula, Municipio de Texcoco, Mexico, 56150</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -363,8 +320,11 @@
                                     <div class="p-4 pb-0">
                                         <a class="d-block h5 mb-2" href="">Dragones Rojos B vs Raiders </a>
                                         <h5 class="text-primary mb-3">Cuautitlán Izcalli</h5>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Av. Rancho del Jacal,
-                                            Cuautitlán Izcalli, Estado de México</p>
+                                        <a href="https://maps.app.goo.gl/tpSJ79QXb6ASumt27" target="_blank">
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Av. Rancho del
+                                                Jacal,
+                                                Cuautitlán Izcalli, Estado de México</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -382,8 +342,10 @@
                                     <div class="p-4 pb-0">
                                         <a class="d-block h5 mb-2" href="">Spartans ODA vs Coyotes Neza</a>
                                         <h5 class="text-primary mb-3">Ojo de Agua</h5>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Blvrd Ojo de Agua
-                                            Manzana 042, Ojo de Agua, 55770 Ojo de Agua, Méx.</p>
+                                        <a href="https://maps.app.goo.gl/CiXMWguWdi5MWXKQA" target="_blank">
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Blvrd Ojo de Agua
+                                                Manzana 042, Ojo de Agua, 55770 Ojo de Agua, Méx.</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -401,8 +363,11 @@
                                     <div class="p-4 pb-0">
                                         <a class="d-block h5 mb-2" href="">Gamos México vs Halcones Rojos</a>
                                         <h5 class="text-primary mb-3">Xochimilco</h5>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Pista Olímpica Virgilio
-                                            Uribe, Xochimilco, 16034 Mexico City, CDMX</p>
+                                        <a href="https://maps.app.goo.gl/pLqbUpGi5VgzJbg29" target="_blank">
+                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Pista Olímpica
+                                                Virgilio
+                                                Uribe, Xochimilco, 16034 Mexico City, CDMX</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -416,8 +381,159 @@
     </div>
     <!-- Partidos List End -->
 
+    <!-- Resultados List Start -->
+    <div class="container-xxl py-3">
+        <div class="container">
+            <div class="row g-0 gx-5 align-items-end">
+                <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                    <div class="text-start mx-auto mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h1 class="mb-1">Resultados</h1>
+                        <p>Todos los resultados de pretemporada ya están aquí. La segunda semana de Febrero fue muy
+                            vibrante, enterate de los resultados del 13 al 16 de Febrero</p>
+                    </div>
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <img class="img-fluid" src="img/Resultados.png" alt="">
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="mb-4">
+                                <h1 class="mb-2">Resultados de la Pretemporada</h1>
+                                <p>Aqui todos los partidos de esta semana donde 10 equipos se enfrentaran, enterate
+                                    de toda la acción partido por partido, jugada tras jugada.</p>
+                            </div>
+                            <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Resultados
+                                Completos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" src="img/Pretemporada1.png" alt=""></a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        CDMX</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Juvenil Unica 2025</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <a class="d-block h5 mb-2" href="">Wildcats vs Pats</a>
+                                    <h5 class="text-primary mb-3">Tlalpan</h5>
+                                    <a href="https://maps.app.goo.gl/Smap9kwh3z7Lbgih9" target="_blank">
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Bordo, Calz Acoxpa
+                                            178,
+                                            Vergel del Sur, Tlalpan, Mexico City, Mexico, 14340</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" src="img/Pretemporada2.png" alt=""></a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        Edo. de Méx.</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Juvenil Unica 2025</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <a class="d-block h5 mb-2" href="">Bucaneros vs Bears ASF</a>
+                                    <h5 class="text-primary mb-3">Satelite</h5>
+                                    <a href="https://maps.app.goo.gl/cyzBHpTsCmKcwsf78" target="_blank">
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Avenida Lomas
+                                            Verdes
+                                            S/N, Sta Cruz Acatlan, 53150 Naucalpan de Juárez Mexico</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" src="img/Pretemporada3.png" alt=""></a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        Edo. de Méx.</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Juvenil Unica 2025</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <a class="d-block h5 mb-2" href="">Toritos vs Aztecas ODA</a>
+                                    <h5 class="text-primary mb-3">Texcoco</h5>
+                                    <a href="https://maps.app.goo.gl/oCiiTEijMdCo1tN2A" target="_blank">
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Pazaleas S/N, Santa
+                                            Ursula, Municipio de Texcoco, Mexico, 56150</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" src="img/Pretemporada4.png" alt=""></a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        Edo. de Méx.</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Juvenil Unica 2025</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <a class="d-block h5 mb-2" href="">Dragones Rojos B vs Raiders </a>
+                                    <h5 class="text-primary mb-3">Cuautitlán Izcalli</h5>
+                                    <a href="https://maps.app.goo.gl/tpSJ79QXb6ASumt27" target="_blank">
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Av. Rancho del
+                                            Jacal,
+                                            Cuautitlán Izcalli, Estado de México</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" src="img/Pretemporada5.png" alt=""></a>
+                                    <div
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                        Edo. de Méx.</div>
+                                    <div
+                                        class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                        Juvenil Unica 2025</div>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <a class="d-block h5 mb-2" href="">Spartans ODA vs Coyotes Neza</a>
+                                    <h5 class="text-primary mb-3">Ojo de Agua</h5>
+                                    <a href="https://maps.app.goo.gl/CiXMWguWdi5MWXKQA" target="_blank">
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Blvrd Ojo de Agua
+                                            Manzana 042, Ojo de Agua, 55770 Ojo de Agua, Méx.</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Resultados List End -->
+
+
     <!-- Equipos List Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-3">
         <div class="container">
             <div class="row g-0 gx-5 align-items-end">
                 <div class="col-lg-6">
@@ -678,8 +794,69 @@
         </div>
     </div>
     <!-- Equipos List End -->
+
+
+
+    <!-- Category Start -->
+    <div class="container-xxl py-3">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="mb-3">Categorias</h1>
+                <p>Las Categorias van de acordes a las edades checa cada una y los equipos que estan en cada una.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
+                            </div>
+                            <h6>Categorias Baby</h6>
+                            <span>8 Equipos</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                            </div>
+                            <h6>Categorias Infantil</h6>
+                            <span>19 Equipos</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                            </div>
+                            <h6>Categorias Juvenil</h6>
+                            <span>48 Equipos</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                        <div class="rounded p-4">
+                            <div class="icon mb-3">
+                                <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                            </div>
+                            <h6>Categorias Femenil</h6>
+                            <span>28 Equipos</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Category End -->
+
     <!-- Team Jugadores Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-3">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="mb-3">Los Mejores Jugadores de la Liga FADEMAC</h1>
@@ -768,7 +945,7 @@
     </div>
     <!-- Team Jugadores End -->
     <!-- Team Coaches Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-3">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="mb-3">Coaches de los Diferentes Equipos</h1>
@@ -910,7 +1087,7 @@
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
+        <div class="container py-3">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4"><a href="contacto.html">Contacto</a></h5>
@@ -919,19 +1096,24 @@
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>55 5566 4252</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>prensafademac@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/LigaFademac"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/ligafademac"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@FADEMACTV"
+                            target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://x.com/LigaFademac" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Contacto</h5>
+                    <h5 class="text-white mb-4">Información</h5>
                     <a class="btn btn-link text-white-50" href="">Acerca de FADEMAC</a>
                     <a class="btn btn-link text-white-50" href="">Equipos</a>
                     <a class="btn btn-link text-white-50" href="">Categorias</a>
-                    <a class="btn btn-link text-white-50" href="">OTROS</a>
-                    <a class="btn btn-link text-white-50" href="">OTROS</a>
+                    <a class="btn btn-link text-white-50" href="">Calendario</a>
+                    <a class="btn btn-link text-white-50" href="">Resultados</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Galeria de Fotos</h5>

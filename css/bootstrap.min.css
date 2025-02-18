@@ -14,14 +14,14 @@
     --bs-yellow: #ffc107;
     --bs-green: #198754;
     --bs-teal: #20c997;
-    --bs-cyan: #0dcaf0;
+    --bs-cyan: #a9a9a9;
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
     --bs-primary: #168908;
     --bs-secondary: #c61a16;
     --bs-success: #198754;
-    --bs-info: #0dcaf0;
+    --bs-info: #a9a9a9;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-light: #EFFDF5;
@@ -3095,15 +3095,15 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
     color: #000;
-    background-color: #26c49f;
-    border-color: #1ac099
+    background-color: #a9a9a9;
+    border-color: #a9a9a9
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
-    background-color: #26c49f;
-    border-color: #1ac099;
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
     box-shadow: 0 0 0 .25rem rgba(0, 157, 121, 0.5)
 }
 
@@ -3113,8 +3113,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #000;
-    background-color: #33c7a5;
-    border-color: #1ac099
+    background-color: #a9a9a9;
+    border-color: #a9a9a9
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -3224,21 +3224,21 @@ fieldset:disabled .btn {
 
 .btn-info {
     color: #000;
-    background-color: #0dcaf0;
-    border-color: #0dcaf0
+    background-color: #a9a9a9;
+    border-color: #a9a9a9
 }
 
 .btn-info:hover {
     color: #000;
-    background-color: #31d2f2;
-    border-color: #25cff2
+    background-color: #a9a9a9;
+    border-color: #a9a9a9
 }
 
 .btn-check:focus+.btn-info,
 .btn-info:focus {
     color: #000;
-    background-color: #31d2f2;
-    border-color: #25cff2;
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
     box-shadow: 0 0 0 .25rem rgba(11, 172, 204, 0.5)
 }
 
@@ -3249,7 +3249,7 @@ fieldset:disabled .btn {
 .show>.btn-info.dropdown-toggle {
     color: #000;
     background-color: #3dd5f3;
-    border-color: #25cff2
+    border-color: #a9a9a9
 }
 
 .btn-check:checked+.btn-info:focus,
@@ -3263,8 +3263,8 @@ fieldset:disabled .btn {
 .btn-info:disabled,
 .btn-info.disabled {
     color: #000;
-    background-color: #0dcaf0;
-    border-color: #0dcaf0
+    background-color: #a9a9a9;
+    border-color: #a9a9a9
 }
 
 .btn-warning {
@@ -3410,14 +3410,14 @@ fieldset:disabled .btn {
 
 .btn-dark:hover {
     color: #fff;
-    background-color: #0c2744;
+    background-color: #a9a9a9;
     border-color: #0b2540
 }
 
 .btn-check:focus+.btn-dark,
 .btn-dark:focus {
     color: #fff;
-    background-color: #0c2744;
+    background-color: #a9a9a9;
     border-color: #0b2540;
     box-shadow: 0 0 0 .25rem rgba(50, 77, 106, 0.5)
 }
@@ -3568,14 +3568,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-info {
-    color: #0dcaf0;
-    border-color: #0dcaf0
+    color: #a9a9a9;
+    border-color: #a9a9a9
 }
 
 .btn-outline-info:hover {
     color: #000;
-    background-color: #0dcaf0;
-    border-color: #0dcaf0
+    background-color: #a9a9a9;
+    border-color: #a9a9a9
 }
 
 .btn-check:focus+.btn-outline-info,
@@ -3589,8 +3589,8 @@ fieldset:disabled .btn {
 .btn-outline-info.active,
 .btn-outline-info.dropdown-toggle.show {
     color: #000;
-    background-color: #0dcaf0;
-    border-color: #0dcaf0
+    background-color: #a9a9a9;
+    border-color: #a9a9a9
 }
 
 .btn-check:checked+.btn-outline-info:focus,
@@ -3603,7 +3603,7 @@ fieldset:disabled .btn {
 
 .btn-outline-info:disabled,
 .btn-outline-info.disabled {
-    color: #0dcaf0;
+    color: #a9a9a9;
     background-color: transparent
 }
 
@@ -6898,7 +6898,7 @@ fieldset:disabled .btn {
 
 .link-primary:hover,
 .link-primary:focus {
-    color: #33c7a5
+    color: #a9a9a9
 }
 
 .link-secondary {
@@ -6920,7 +6920,7 @@ fieldset:disabled .btn {
 }
 
 .link-info {
-    color: #0dcaf0
+    color: #a9a9a9
 }
 
 .link-info:hover,
@@ -7331,7 +7331,7 @@ fieldset:disabled .btn {
 }
 
 .border-info {
-    border-color: #0dcaf0 !important
+    border-color: #a9a9a9 !important
 }
 
 .border-warning {
@@ -8308,7 +8308,7 @@ fieldset:disabled .btn {
 }
 
 .text-info {
-    color: #0dcaf0 !important
+    color: #a9a9a9 !important
 }
 
 .text-warning {
@@ -8364,7 +8364,7 @@ fieldset:disabled .btn {
 }
 
 .bg-info {
-    background-color: #0dcaf0 !important
+    background-color: #a9a9a9 !important
 }
 
 .bg-warning {

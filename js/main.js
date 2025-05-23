@@ -61,7 +61,7 @@
         smartSpeed: 1000,
         margin: 24,
         dots: false,
-        loop: false,
+        loop: true,
         nav: true,
         navText: [
             '<i class="bi bi-arrow-left"></i>',

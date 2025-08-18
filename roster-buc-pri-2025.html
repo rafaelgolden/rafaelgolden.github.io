@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FADEMAC Test</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="1024.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="167.png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="apple-touch-startup-image" href="1024.png">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <!-- <<link href="favicon.ico" rel="icon">>-->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="fontawesome-free-6.7.2-web/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 80px; height: 80px;">
+                    </div>
+                    <h1 class="m-0 text-primary">FADEMAC</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Portada</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Calendario</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="primavera_2025.html" class="dropdown-item">Conferencias Primavera 2025</a>
+                                <a href="calendario.html" class="dropdown-item">Calendario de Juego</a>
+                                <a href="resultados.html" class="dropdown-item">Resultados</a>
+                                <a href="index.html" class="dropdown-item">Posiciones</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Equipos</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="index.html" class="dropdown-item">Todos los Equipos</a>
+                                <a href="index.html" class="dropdown-item">Equipos Socios</a>
+                                <a href="index.html" class="dropdown-item">Equipos Juvenil Única 2025 Primavera</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="contacto.html" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown">Información</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="contacto.html" class="dropdown-item">Contacto con FADEMAC</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">Bucaneros de Satelite</h1>
+                    <nav aria-label="breadcrumb animated fadeIn">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Portada</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Equipos</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Bucaneros de Satelite</a></li>
+                            <li class="breadcrumb-item text-body active" aria-current="page">Roster Juvenil Única
+                                Primavera 2025
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <img class="img-fluid" src="img/header.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary mb-4 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4">
+
+                            </div>
+                            <div class="col-md-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+        <!-- Roaster Start -->
+        <div class="container-xxl py-3">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    <div class="col-lg-12">
+                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="mb-3" style="color:#168908">Bucaneros de Satelite</h1>
+                            <h2 class="mb-3">Roster de Jugadores</h2>
+                            <h3 class="mb-1" style="color:#000000">Juvenil Única Primavera 2025 </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="table-responsive ">
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_5_eduardo_guerra2.png"
+                                            class="img-fluid img-thumbnail" alt="Eduardo">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Eduardo Guerra Rómero.</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #5</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Corredor de Poder (FB)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_7_juan_servin2.png"
+                                            class="img-fluid img-thumbnail" alt="Juan">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Juan Pablo Servin Cábral</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #7</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Corredor (RB)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_9_emiliano_camacho2.png"
+                                            class="img-fluid img-thumbnail" alt="Emiliano">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Jesus Emiliano Camacho Silva.</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #9</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Mariscal de Campo (QB)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_19_miguel_ibarra2.png"
+                                            class="img-fluid img-thumbnail" alt="Miguel">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Miguel Ibarra Monroy</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #19</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Ala Cerrada (TE)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_28_armando_gutierrez2.png"
+                                            class="img-fluid img-thumbnail" alt="Armando">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Armando Gutierrez García</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #28</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Ala Cerrada (TE)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_33_daniel_naranjo2.png"
+                                            class="img-fluid img-thumbnail" alt="Daniel">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Jose Daniel Naranjo Fernández.</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #33</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Receptor Abierto (WR)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_44_santiago_villafaña2.png"
+                                            class="img-fluid img-thumbnail" alt="Santiago">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Santiago Villafaña Díaz.</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #44</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Guardia Izquierdo (LG)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_50_hector_luciano2.png"
+                                            class="img-fluid img-thumbnail" alt="Hector">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Héctor Luciano Sanchez Lozano.</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #50</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Receptor Abierto (WR)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_53_hugo_velazquez2.png"
+                                            class="img-fluid img-thumbnail" alt="Hugo">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Hugo Velázquez Fonseca.</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #53</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Tacle Derecho (RT)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_61_iker_martinez2.png"
+                                            class="img-fluid img-thumbnail" alt="Iker">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Iker Martinez Montoya.</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #61</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Centro (C)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <table class="table table-striped table-primary table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th>Jugador</th>
+                                        <th>Datos</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td rowspan="7" class="w-50">
+                                        <img src="img/roasters/Bucaneros/buca_85_zirahuen_barush2.png"
+                                            class="img-fluid img-thumbnail" alt="Zirahuen">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nombre: Zirahuen Barush Avila Luna</td>
+                                </tr>
+                                <tr>
+                                    <td>Jersey: #85</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de Jugador: Ofensivo</td>
+                                </tr>
+                                <tr>
+                                    <td>Posición: Receptor Abierto (WR)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fecha de Nacimiento:</td>
+                                </tr>
+                                <tr>
+                                    <td>Estatus: Activo</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="btn btn-primary py-3 px-5" href="estadisticas.html">Estadisticas Totales
+                        <i class="fa fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Equipos List End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-3">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4"><a href="contacto.html">Contacto</a></h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Av. Chapultepec
+                        #157-203
+                        Col.
+                        Juarez,
+                        Mexico City, Mexico</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>55 5566 4252</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>prensafademac@gmail.com
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/LigaFademac"
+                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/ligafademac"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://youtube.com/@fademactv?si=xW2_mWU5597xohrz" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://x.com/LigaFademac" target="_blank"><i
+                                class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Información</h5>
+                    <a class="btn btn-link text-white-50" href="contacto.html">Contacto con
+                        FADEMAC</a>
+                    <a class="btn btn-link text-white-50" href="">Equipos</a>
+                    <a class="btn btn-link text-white-50" href="calendario.html">Calendario</a>
+                    <a class="btn btn-link text-white-50" href="resultados.html">Resultados</a>
+                    <a class="btn btn-link text-white-50" href="">Estadisticas</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Equipos</h5>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/equipo_bucaneros.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/equipo_buhos.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/equipo_cherokees.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/equipo_dragones_rojos.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/equipo_gamos.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded bg-light p-1" src="img/equipo_oseznos.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

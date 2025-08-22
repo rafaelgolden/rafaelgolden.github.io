@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FADEMAC Test</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="1024.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="167.png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="apple-touch-startup-image" href="1024.png">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <!-- <<link href="favicon.ico" rel="icon">>-->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="fontawesome-free-6.7.2-web/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 80px; height: 80px;">
+                    </div>
+                    <h1 class="m-0 text-primary">FADEMAC</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Portada</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Calendario</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="primavera_2025.html" class="dropdown-item">Conferencias Primavera 2025</a>
+                                <a href="calendario.html" class="dropdown-item">Calendario de Juego</a>
+                                <a href="resultados.html" class="dropdown-item">Resultados</a>
+                                <a href="estadisticas.html" class="dropdown-item">Estadísticas</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Equipos</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="equipos_todos.html" class="dropdown-item">Todos los Equipos</a>
+                                <a href="equipos_socios.html" class="dropdown-item">Equipos Socios</a>
+                                <a href="primavera_2025.html" class="dropdown-item">Equipos Juvenil Única 2025
+                                    Primavera</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="contacto.html" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown">Información</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="contacto.html" class="dropdown-item">Contacto con FADEMAC</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white p-0">
+            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 p-5 mt-lg-5">
+                    <h1 class="display-5 animated fadeIn mb-4">Equipos</h1>
+                    <nav aria-label="breadcrumb animated fadeIn">
+                        <ol class="breadcrumb text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Portada</a></li>
+                            <li class="breadcrumb-item text-body active" aria-current="page">Equipos
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-md-6 animated fadeIn">
+                    <img class="img-fluid" src="img/header.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary mb-4 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4">
+
+                            </div>
+                            <div class="col-md-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+        <!-- Equipos List Start -->
+        <div class="container-xxl py-3">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    <div class="col-lg-6">
+                        <div class="text-start mx-auto mb-2 wow slideInLeft" data-wow-delay="0.1s">
+                            <h1 class="mb-3">Todos los Equipos <br> liga FADEMAC</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_bears.png" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            CDMX</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Bears ASF</a>
+                                        <h5 class="text-primary mb-3">Álvaro Obregón</h5>
+                                        <a href="https://maps.app.goo.gl/XW62RxExMWnF7Gck9" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Las Américas,
+                                                01120, Álvaro Obregón, Ciudad de México.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href="equipo-bucaneros.html"><img class="img-fluid"
+                                                src="img/equipo_bucaneros.png" alt="Bucaneros"></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Estado de México</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="equipo-bucaneros.html">Bucaneros de
+                                            Satelite</a>
+                                        <h5 class="text-primary mb-3"> Naucalpan</h5>
+                                        <a href="https://maps.app.goo.gl/2B7Q9KhVj1yg5VKu6" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Avenida Lomas
+                                                Verdes S/N, Santa Cruz Acatlan, 53150, Naucalpan de Juárez, Estado de
+                                                México.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_bulldogbalbuena.jpg"
+                                                alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            CDMX</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Bulldogs Balbuena</a>
+                                        <h5 class="text-primary mb-3">Venustiano Carranza</h5>
+                                        <a href="https://maps.app.goo.gl/NMTfvt3mfap1CvEC6" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Luis de La Rosa,
+                                                Jardín Balbuena, 15900, Venustiano Carranza, Ciudad de México.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_bulldogsmexico.jpg"
+                                                alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Estado de México</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Bulldogs México</a>
+                                        <h5 class="text-primary mb-3">Cuautitlán Izcalli</h5>
+                                        <a href="https://maps.app.goo.gl/THWNcTBsqfp6n4Tq7" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Canaleta Manzana
+                                                010, Cumbria, 54740, Cuautitlán Izcalli, Estado de México.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_buhos.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            CDMX</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Buhos de Azcapotzalco</a>
+                                        <h5 class="text-primary mb-3">Azcapotzalco</h5>
+                                        <a href="https://maps.app.goo.gl/ZAuFgtsdgi1cvsEFA" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Av. San Pablo,
+                                                Eje 5 Norte, Santa Barbara, 02122, Azcapotzalco, Ciudad de México.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_cimarrones.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Quéretaro</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Cimarrones de Quéretaro</a>
+                                        <h5 class="text-primary mb-3">Quéretaro</h5>
+                                        <a href="https://maps.app.goo.gl/dh6qnWYg8cfPgimE7" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Río Támesis 113,
+                                                Villas del Parque, 76140, Santiago de Querétaro, Querétaro.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_cherokees.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            CDMX</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Cherokees</a>
+                                        <h5 class="text-primary mb-3">Coyoácan</h5>
+                                        <a href="https://maps.app.goo.gl/yeXVXA8a6y4ATg7t7" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Calle, Candelaria
+                                                Pérez s/n, Culhuacan CTM VIII, 04489, Coyoacán, Ciudad de México.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_dragones_rojos.png"
+                                                alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Estado de México</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Dragones Rojos</a>
+                                        <h5 class="text-primary mb-3">Cuautitlán Izcalli</h5>
+                                        <a href="https://maps.app.goo.gl/HAkCup4MhfmNA3pq8" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Avenida Rancho
+                                                del, Av. del Jacal s/n, La Perla, 54740, Cuautitlán Izcalli, Estado de
+                                                México.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_gamos.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            CDMX</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Gamos México</a>
+                                        <h5 class="text-primary mb-3">Xochimilco</h5>
+                                        <a href="https://maps.app.goo.gl/pLqbUpGi5VgzJbg29" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Pista Olímpica
+                                                Virgilio Uribe, 16034, Xochimilco, Ciudad de México.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_jaguares.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Puebla</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Jaguares Imex</a>
+                                        <h5 class="text-primary mb-3">Cholula</h5>
+                                        <a href="https://maps.app.goo.gl/SRCCuvKH26x4BUUt6" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Antiguo Camino
+                                                Real a Cholula 4232, La Rivera, 72170, San Andrés Cholula, Puebla.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_leones.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Estado de México</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Leones Anáhuac Prepa Cumbres</a>
+                                        <h5 class="text-primary mb-3">Naucalpan</h5>
+                                        <a href="https://maps.app.goo.gl/ki43u9yNeqrvmWGa6" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Av. Lomas Anáhuac
+                                                S/N, Lomas Anahuac, 52786, Naucalpan de Juárez, Estado de México.</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_linces.png" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Edo. de Méx</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Linces UVM Toluca</a>
+                                        <h5 class="text-primary mb-3">Metepec</h5>
+                                        <a href="https://maps.app.goo.gl/emZFFBjDkhKxpbNY6" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>De Las Palmas
+                                                Poniente 439, San Jorge Pueblo Nuevo, 52164, Metepec, Estado de México.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_lobos.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Estado de México</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Lobos de Toluca</a>
+                                        <h5 class="text-primary mb-3">Metepec</h5>
+                                        <a href="https://maps.app.goo.gl/zeH2o2Xz7SHsVU3C8" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Calle Pedro
+                                                Ascencio 546, Zona Sin Asignación de Nombre de Col 1, 52140, Metepec,
+                                                Estado de México.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="property-item rounded overflow-hidden">
+                                    <div class="position-relative overflow-hidden">
+                                        <a href=""><img class="img-fluid" src="img/equipo_oseznos.jpg" alt=""></a>
+                                        <div
+                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                            Hidalgo</div>
+                                        <div
+                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                            Juvenil Primavera 2025</div>
+                                    </div>
+                                    <div class="p-4 pb-0">
+                                        <a class="d-block h5 mb-2" href="">Oseznos Football</a>
+                                        <h5 class="text-primary mb-3">Pachuca</h5>
+                                        <a href="https://maps.app.goo.gl/S7TUv789D6WRvQcv9" target="_blank">
+                                            <p style="color:#000000"><i
+                                                    class="fa fa-map-marker-alt text-primary me-2"></i>Venta Prieta,
+                                                42083, Pachuca, Hidalgo.
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-xxl py-5">
+                                <div class="container">
+                                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                                        <a class="btn btn-primary py-3 px-5" href="calendario.html">Calendario
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Equipos List End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-3">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4"><a href="contacto.html">Contacto</a></h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Av. Chapultepec
+                            #157-203
+                            Col.
+                            Juarez,
+                            Mexico City, Mexico</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>55 5566 4252</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>prensafademac@gmail.com
+                        </p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/LigaFademac"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/ligafademac"
+                                target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://youtube.com/@fademactv?si=xW2_mWU5597xohrz" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://x.com/LigaFademac"
+                                target="_blank"><i class="fab fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Información</h5>
+                        <a class="btn btn-link text-white-50" href="contacto.html">Contacto con
+                            FADEMAC</a>
+                        <a class="btn btn-link text-white-50" href="equipos_todos.html">Equipos</a>
+                        <a class="btn btn-link text-white-50" href="calendario.html">Calendario</a>
+                        <a class="btn btn-link text-white-50" href="resultados.html">Resultados</a>
+                        <a class="btn btn-link text-white-50" href="estadisticas.html">Estadisticas</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Equipos</h5>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/equipo_bucaneros.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/equipo_buhos.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/equipo_cherokees.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/equipo_dragones_rojos.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/equipo_gamos.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/equipo_oseznos.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

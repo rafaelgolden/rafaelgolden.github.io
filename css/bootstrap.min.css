@@ -149,14 +149,6 @@ h6,
     font-size: 1rem
 }
 
-video::-webkit-media-controls {
-    display: none !important;
-}
-
-video::-webkit-media-controls-start-playback-button {
-    display: none;
-}
-
 p {
     margin-top: 0;
     margin-bottom: 1rem
@@ -2257,6 +2249,43 @@ progress {
     appearance: none;
     border-radius: 5px;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+}
+
+.video::-webkit-media-controls {
+    display: none !important;
+}
+
+.video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+
+.video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+.video::-webkit-media-controls-play-button {
+    display: none !important;
+}
+
+.video::-webkit-media-controls-current-time-display {
+    display: none !important;
+}
+
+.video::-webkit-media-controls-duration-display {
+    display: none !important;
+}
+
+.video::-webkit-media-controls-timeline {
+    display: none !important;
+}
+
+.video::-webkit-media-controls-volume-slider {
+    display: none !important;
+}
+
+/* Optional: Prevent user interaction from revealing controls */
+.video {
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -484,10 +484,3 @@
     border-right: none;
 }
 
-video::-webkit-media-controls {
-    display: none !important;
-}
-
-video::-webkit-media-controls-start-playback-button {
-    display: none;
-}

@@ -1,7 +1,24 @@
 /********** Template CSS **********/
+.accordion-body {
+    background-color: white;
+    /* Replace with your desired color */
+}
+
+.accordion-button {
+    background-color: white;
+    /* Replace with your desired color */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    /* Replace with your desired color */
+    color: white;
+    /* Adjust text color for contrast */
+}
+
 :root {
-    --primary: #168908;
-    --secondary: #c61a16;
+    --primary: #528D6B;
+    --secondary: #DE394B;
     --light: #EFFDF5;
     --dark: #0E2E50;
 }
@@ -242,7 +259,7 @@
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed #168908;
+    border: 1px dashed #528D6B;
     transition: .5s;
 }
 
@@ -283,11 +300,11 @@
 }
 
 .property-item .border-top {
-    border-top: 1px dashed #168908 !important;
+    border-top: 1px dashed #528D6B !important;
 }
 
 .property-item .border-end {
-    border-right: 1px dashed #168908 !important;
+    border-right: 1px dashed #528D6B !important;
 }
 
 
@@ -363,7 +380,7 @@
 }
 
 .testimonial-carousel .testimonial-item .border {
-    border: 1px dashed #168908 !important;
+    border: 1px dashed #528D6B !important;
 }
 
 .testimonial-carousel .owl-nav {

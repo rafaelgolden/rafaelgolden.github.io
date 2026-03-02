@@ -76,6 +76,8 @@
             }
         }
     });
+    
+
 
     // Equipos carousel
     $(".equipos-carousel").owlCarousel({

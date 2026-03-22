@@ -4,12 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>MFL Test</title>
-    <!-- 
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="1024.png">
     <link rel="apple-touch-icon" sizes="152x152" href="152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="180.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="167.png">-->
+    <link rel="apple-touch-icon" sizes="167x167" href="167.png">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="apple-touch-startup-image" href="1024.png">
     <meta content="" name="keywords">
@@ -65,7 +64,6 @@
             }
         });
     </script>
-</body>
 
 <body>
     <div class="container-xxl bg-white p-0">
@@ -97,10 +95,9 @@
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link active">Portada</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Competencias
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Temporada
                                 2026</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="#" class="dropdown-item">Conferencias 2026</a>
                                 <a href="#" class="dropdown-item">Calendario de Juego</a>
                                 <a href="#" class="dropdown-item">Resultados</a>
                                 <a href="#" class="dropdown-item">Estadísticas</a>
@@ -122,6 +119,7 @@
                                 data-bs-toggle="dropdown">Información</a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="#" class="dropdown-item">Contacto con MFL</a>
+                                <a href="#" class="dropdown-item">Cupones de los Patrocinios</a>
                             </div>
                         </div>
                     </div>
@@ -130,32 +128,33 @@
         </div>
         <!-- Navbar End -->
          <!--Modal-->
-    <div class="modal fade" id="onceOnlyModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- modal-lg for a larger display -->
-        <div class="modal-content">
-        <div class="modal-header border-0"> <!-- border-0 keeps it clean for images -->
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal fade" id="onceOnlyModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- modal-lg for a larger display -->
+            <div class="modal-content">
+            <div class="modal-header border-0"> <!-- border-0 keeps it clean for images -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center p-20"> <!-- p-0 removes padding around the image -->
+                <img src="img/gameoftheweek.png" class="img-fluid mx-auto d-block " alt="Game of the Week">
+            </div>
+            </div>
         </div>
-        <div class="modal-body text-center p-20"> <!-- p-0 removes padding around the image -->
-            <img src="img/gameoftheweek.png" class="img-fluid mx-auto d-block " alt="Game of the Week">
         </div>
-        </div>
-    </div>
-    </div>
-    <script>
-        window.onload = function() {
-            // Buscamos el modal por su ID
-            var modalElement = document.getElementById('onceOnlyModal');
-            
-            if (modalElement && typeof bootstrap !== 'undefined') {
-                var myModal = new bootstrap.Modal(modalElement);
-                myModal.show();
-            } else {
-                console.error("Bootstrap no está cargado o el ID 'onceOnlyModal' no existe.");
-            }
-        };
-    </script>
-    <!-- Hero Section -->
+        <script>
+            window.onload = function() {
+                // Buscamos el modal por su ID
+                var modalElement = document.getElementById('onceOnlyModal');
+                
+                if (modalElement && typeof bootstrap !== 'undefined') {
+                    var myModal = new bootstrap.Modal(modalElement);
+                    myModal.show();
+                } else {
+                    console.error("Bootstrap no está cargado o el ID 'onceOnlyModal' no existe.");
+                }
+            };
+        </script>
+        <!--Modal end-->
+        <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="position-relative overflow-hidden">
@@ -163,6 +162,7 @@
                 </div>
             </div>
         </section>
+       <!-- Hero Section --> 
         <!-- Search Start -->
         <div class="container-fluid bg-primary mb-4 wow fadeIn" data-wow-delay="0.1s" style="padding: 15px;">
             <div class="container">
@@ -302,10 +302,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                     <div class="property-item rounded overflow-hidden">
                                         <div class="position-relative overflow-hidden">
-                                            <a href=""><img class="img-fluid" src="img/Equipos/equipo_vaqueros.png"
+                                            <a href=""><img class="img-fluid" src="img/Equipos/equipo_carneros.png"
                                                     alt=""></a>
                                             <div
                                                 class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -315,13 +315,11 @@
                                                 Baby/Inf/Juv/Fem</div>
                                         </div>
                                         <div class="p-4 pb-0">
-                                            <a class="d-block h5 mb-2" href="">Vaqueros Linda Vista</a>
-                                            <h5 class="text-primary mb-3">Guadalupe</h5>
-                                            <a href="https://maps.app.goo.gl/o5FhMPzih4UoYeUb8" target="_blank">
+                                            <a class="d-block h5 mb-2" href="">Club Carneros</a>
+                                            <h5 class="text-primary mb-3">San Nicolás de los Garza</h5>
+                                            <a href="https://maps.app.goo.gl/kZRxN8JvD4o13zZaA" target="_blank">
                                                 <p style="color:#000000"><i
-                                                        class="fa fa-map-marker-alt text-primary me-2"></i>Av
-                                                    Vista Jardines, Linda Vista, 67123 Guadalupe, N.L.
-                                                </p>
+                                                        class="fa fa-map-marker-alt text-primary me-2"></i>Av. Juan Montemayor SN, Hacienda los Morales 3er Sector, San Nicolás de los Garza, N.L.</p>
                                             </a>
                                         </div>
                                     </div>
@@ -345,6 +343,28 @@
                                                 <p style="color:#000000"><i
                                                         class="fa fa-map-marker-alt text-primary me-2"></i>Calle, P.º de los Descubridores, Paseo de Cumbres 3ER Sector,Monterrey, N.L.
                                                 </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="property-item rounded overflow-hidden">
+                                        <div class="position-relative overflow-hidden">
+                                            <a href=""><img class="img-fluid" src="img/Equipos/equipo_jaguares.png"
+                                                    alt=""></a>
+                                            <div
+                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
+                                                Nuevo León</div>
+                                            <div
+                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
+                                                Baby/Inf/Juv/Fem</div>
+                                        </div>
+                                        <div class="p-4 pb-0">
+                                            <a class="d-block h5 mb-2" href="">Club Jaguares</a>
+                                            <h5 class="text-primary mb-3">García</h5>
+                                            <a href="https://maps.app.goo.gl/AQUq73Ms1s4UsgJU7" target="_blank">
+                                                <p style="color:#000000"><i
+                                                        class="fa fa-map-marker-alt text-primary me-2"></i>Av Abraham Lincoln 3155, Villas del Poniente, Mitras Poniente, 66023, N.L.</p>
                                             </a>
                                         </div>
                                     </div>
@@ -376,7 +396,7 @@
                                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="property-item rounded overflow-hidden">
                                         <div class="position-relative overflow-hidden">
-                                            <a href=""><img class="img-fluid" src="img/Equipos/equipo_jaguares.png"
+                                            <a href=""><img class="img-fluid" src="img/Equipos/equipo_vaqueros.jpg"
                                                     alt=""></a>
                                             <div
                                                 class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -386,33 +406,13 @@
                                                 Baby/Inf/Juv/Fem</div>
                                         </div>
                                         <div class="p-4 pb-0">
-                                            <a class="d-block h5 mb-2" href="">Club Jaguares</a>
-                                            <h5 class="text-primary mb-3">García</h5>
-                                            <a href="https://maps.app.goo.gl/AQUq73Ms1s4UsgJU7" target="_blank">
+                                            <a class="d-block h5 mb-2" href="">Club Vaqueros Linda Vista</a>
+                                            <h5 class="text-primary mb-3">Guadalupe</h5>
+                                            <a href="https://maps.app.goo.gl/o5FhMPzih4UoYeUb8" target="_blank">
                                                 <p style="color:#000000"><i
-                                                        class="fa fa-map-marker-alt text-primary me-2"></i>Av Abraham Lincoln 3155, Villas del Poniente, Mitras Poniente, 66023 Mitras Poniente, N.L.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                                    <div class="property-item rounded overflow-hidden">
-                                        <div class="position-relative overflow-hidden">
-                                            <a href=""><img class="img-fluid" src="img/Equipos/equipo_carneros.png"
-                                                    alt=""></a>
-                                            <div
-                                                class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                                Nuevo León</div>
-                                            <div
-                                                class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                                                Baby/Inf/Juv/Fem</div>
-                                        </div>
-                                        <div class="p-4 pb-0">
-                                            <a class="d-block h5 mb-2" href="">Equipo Carneros</a>
-                                            <h5 class="text-primary mb-3">San Nicolás de los Garza</h5>
-                                            <a href="https://maps.app.goo.gl/kZRxN8JvD4o13zZaA" target="_blank">
-                                                <p style="color:#000000"><i
-                                                        class="fa fa-map-marker-alt text-primary me-2"></i>Av. Juan Montemayor SN, Hacienda los Morales 3er Sector, San Nicolás de los Garza, N.L.</p>
+                                                        class="fa fa-map-marker-alt text-primary me-2"></i>Av
+                                                    Vista Jardines, Linda Vista, 67123 Guadalupe, N.L.
+                                                </p>
                                             </a>
                                         </div>
                                     </div>
@@ -477,7 +477,7 @@
                                         alt="">
                                 </div>
                                 <div class="col-4">
-                                    <img class="img-fluid rounded bg-light p-1" src="img/Equipos/equipo_vaqueros.png"
+                                    <img class="img-fluid rounded bg-light p-1" src="img/Equipos/equipo_carneros.png"
                                         alt="">
                                 </div>
                                 <div class="col-4">
@@ -485,15 +485,16 @@
                                         alt="">
                                 </div>
                                 <div class="col-4">
-                                    <img class="img-fluid rounded bg-light p-1"
-                                        src="img/Equipos/equipo_toros.png" alt="">
-                                </div>
-                                <div class="col-4">
                                     <img class="img-fluid rounded bg-light p-1" src="img/Equipos/equipo_jaguares.png"
                                         alt="">
                                 </div>
+
                                 <div class="col-4">
-                                    <img class="img-fluid rounded bg-light p-1" src="img/Equipos/equipo_carneros.png"
+                                    <img class="img-fluid rounded bg-light p-1" src="img/Equipos/equipo_toros.png" 
+                                        alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img class="img-fluid rounded bg-light p-1" src="img/Equipos/equipo_vaqueros.jpg"
                                         alt="">
                                 </div>
                             </div>

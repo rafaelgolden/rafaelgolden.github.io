@@ -821,3 +821,42 @@
   margin: 0 0 15px 0 0 0;
   padding: 0;
 }
+/* Dropdown base */
+.custom-menu {
+    border: none;
+    border-radius: 12px;
+    padding: 10px 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    animation: fadeInUp 0.3s ease;
+}
+
+/* Items */
+.custom-menu .dropdown-item {
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Hover bonito */
+.custom-menu .dropdown-item:hover {
+    background: #658B6E;
+    color: #fff;
+    transform: translateX(5px);
+}
+
+/* Animación */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.custom-menu {
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.9);
+}

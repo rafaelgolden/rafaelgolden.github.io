@@ -195,44 +195,40 @@
                 </div>
                     <div class="container-xxl py-3">
                         <div class="container">
-                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="ALL">ALL
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="COA">COAHUILA
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="NL">NUEVO LEÓN
-                                </a>                                
-                            </div>
-                            <BR>
-                            
-                            <BR>
-                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="ALL">ALL
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="APO">APODACA
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="CAR">CARMEN
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="CIE">CIENEGA
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="ESC">ESCOBEDO
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="GAR">GARCÍA
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="JUA">JUÁREZ
-                                </a>
-                                 <a class="btn btn-primary py-1 px-3 filter-button" data-filter="MON">MONCLOVA
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="MOY">MONTERREY
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="SAL">SALTILLO
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="SC">SANTA CATARINA
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="SN">SAN NICOLÁS
-                                </a>
-                                <a class="btn btn-primary py-1 px-3 filter-button" data-filter="SP">SAN PEDRO
-                                </a>
+                            <div class="filters-container text-center mb-4">
+                                <!-- Estado -->
+                                <div class="dropdown d-inline-block me-2">
+                                    <button class="btn dropdown-toggle custom-dropdown" type="button" data-bs-toggle="dropdown">
+                                        Estado
+                                    </button>
+                                    <ul class="dropdown-menu" id="stateDropdown">
+                                        <li><a class="dropdown-item filter-button" data-filter="ALL">Todos</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="NL">Nuevo León</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="COA">Coahuila</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- Ciudad -->
+                                <div class="dropdown d-inline-block">
+                                    <button class="btn dropdown-toggle custom-dropdown" type="button" data-bs-toggle="dropdown">
+                                        Ciudad
+                                    </button>
+                                    <ul class="dropdown-menu" id="cityDropdown">
+                                        <li><a class="dropdown-item filter-button" data-filter="ALL">Todas</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="APO">Apodaca</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="CAR">Carmen</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="CIE">Ciénega</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="ESC">Escobedo</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="GAR">García</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="JUA">Juárez</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="MON">Monclova</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="MOY">Monterrey</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="SAL">Saltillo</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="SC">Santa Catarina</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="SN">San Nicolás</a></li>
+                                        <li><a class="dropdown-item filter-button" data-filter="SP">San Pedro</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

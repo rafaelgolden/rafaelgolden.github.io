@@ -40,16 +40,6 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com"></script>
-    <script src="https://cdn.jsdelivr.net"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="js/glightbox/js/glightbox.min.js"></script>
-    <script src="js/swiper/swiper-bundle.min.js"></script>
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
@@ -68,7 +58,6 @@
             }
         });
     </script>
-
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
@@ -584,7 +573,11 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
-
+            <script>
+            const lightbox = GLightbox({
+                selector: '.glightbox'
+            });
+            </script>
 </body>
 
 </html>
